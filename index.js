@@ -2,7 +2,7 @@
 
 const Promise  = require("bluebird");
 const request  = require("request");
-const Canvas   = require("canvas");
+const Canvas   = require("canvas-prebuilt");
 const fs       = Promise.promisifyAll(require("fs"));
 
 function downloadPhoto (uri) {

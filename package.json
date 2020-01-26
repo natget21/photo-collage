@@ -1,5 +1,5 @@
 {
-  "name": "photo-collage",
+  "name": "photo-collage-prebuild-canvas",
   "version": "1.1.0",
   "description": "Turns an array of images into a photo collage",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/classdojo/photo-collage.git"
+    "url": "https://github.com/natget21/photo-collage.git"
   },
   "keywords": [
     "photo",
@@ -18,16 +18,16 @@
     "canvas",
     "tile"
   ],
-  "author": "Peter Hayes",
+  "author": "Natnael Getachew <natget21@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/classdojo/photo-collage/issues"
+    "url": "https://github.com/natget21/photo-collage/issues"
   },
-  "homepage": "https://github.com/classdojo/photo-collage#readme",
+  "homepage": "https://github.com/natget21/photo-collage#readme",
   "dependencies": {
     "bluebird": "^3.3.5",
-    "canvas": "^1.3.15",
-    "request": "^2.72.0"
+    "canvas-prebuilt": "^2.0.0-alpha.14",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "buffer-equal": "^1.0.0",
